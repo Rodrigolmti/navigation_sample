@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_restaurant"
+    app:startDestination="@id/restaurantCatalogFragment">
+
+    <fragment
+        android:id="@+id/restaurantCatalogFragment"
+        android:name="com.rodrigolmti.navigation.restaurant.RestaurantCatalogFragment"
+        android:label="RestaurantCatalogFragment" />
+
+    <fragment
+        android:id="@+id/restaurantDetailFragment"
+        android:name="com.rodrigolmti.navigation.restaurant.RestaurantDetailFragment"
+        android:label="RestaurantDetailFragment" />
+
+</navigation>
